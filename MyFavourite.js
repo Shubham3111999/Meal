@@ -48,9 +48,9 @@ function showFavMeal() {
 
         //Adding event listner to delete button
         deleteBtn.addEventListener("click", () => {
-            console.log(meal.strMeal);
+            //console.log(meal.strMeal);
             let updatedMeal = favMeals.filter((ele) => meal.strMeal !== ele.strMeal)
-            console.log(updatedMeal);
+            //console.log(updatedMeal);
 
             //update favMeal in Locastorage
             let updatedMealStr = JSON.stringify(updatedMeal);

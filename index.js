@@ -26,7 +26,7 @@ async function fetchSearchMeals(mealName) {
 
         let mealsSearchData = await respose.json();
 
-        console.log(mealsSearchData.meals);
+        //console.log(mealsSearchData.meals);
         mealsEl.innerHTML = "";
         if (mealsSearchData.meals && mealName !== "") {
 
@@ -92,7 +92,7 @@ function showMealsSearch(data) {
             //if meal is not in favoriteMealArray then only push to favoriteMealArray
             if (!isMealInFav) {
                 favoriteMealArray.push(meal);
-                console.log(favoriteMealArray);
+                //console.log(favoriteMealArray);
 
                 let favMeals = JSON.stringify(favoriteMealArray);
                 localStorage.setItem("favMeals", favMeals)
