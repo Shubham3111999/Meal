@@ -1,0 +1,210 @@
+/* ___General setup_____ */
+body {
+    background-color: rgb(171, 216, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* ____Favorite button section___*/
+.Favorite {
+    text-align: end;
+}
+
+.Favorite button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(167, 44, 44);
+    padding: 5px;
+}
+
+
+/* ____Meal search Section___ */
+.meal-search {
+    text-align: center;
+}
+
+.meal-search-box input {
+    width: 50vw;
+    height: 20px;
+    max-width: 600px;
+    border: 2px rgb(233, 98, 98) solid;
+    padding: 5px;
+}
+
+.meal-search-box input::placeholder {
+    color: rgb(217, 153, 153);
+}
+
+.meal-search-box button {
+    padding: 7px;
+    background-color: brown;
+    color: white;
+    margin-left: -20px;
+    width: 80px;
+}
+
+
+
+/* _____Meal result section____*/
+.meal-result {
+    text-align: center;
+}
+
+.meals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.meal-item {
+    height: 20vw;
+    width: 20vw;
+    min-width: 200px;
+    min-height: 250px;
+    background-color: rgb(234, 201, 201);
+    border: 1px solid black;
+}
+
+.meal-item button {
+    font-size: small;
+    background-color: brown;
+    color: white;
+}
+
+.meal-img {
+    width: 100%;
+    height: 80%;
+}
+
+.meal-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.meal-name {
+    margin: 5px;
+}
+
+/*________Meal Detail page_________*/
+h1.mdp {
+    text-align: center;
+}
+
+.mdp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(49, 195, 235);
+    padding: 20px;
+}
+
+.mealImage {
+    height: 50vh;
+    min-height: 250px;
+}
+
+.mealImage img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 15px 0px black;
+}
+
+.mealDetail {
+    border: 1px solid rgb(0, 0, 0);
+    width: 40vw;
+    padding: 10px;
+    flex-basis: 600px;
+    background-color: rgb(144, 219, 218);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 15px 0px black;
+}
+
+.mealName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.mealInstruction p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+}
+
+.mealInstruction span {
+    font-size: medium;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*______Favourite page ________*/
+
+h1.fav {
+    text-align: center;
+}
+
+.fav-list {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.fav-img {
+    width: 20vh;
+    height: 20vh;
+
+}
+
+.fav-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    border: 1px solid black;
+    box-shadow: 0 0 15px 0px black;
+}
+
+.name,
+.category,
+.area {
+    font-weight: 700;
+    color: rgb(6, 6, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.fav-detail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40vw;
+    background-color: rgb(234, 201, 201);
+    border: 1px solid black;
+    box-shadow: 0 0 15px 0px black;
+}
+
+.detail {
+    margin-bottom: 8px;
+    margin-left: 10px;
+
+}
+
+.fav-detail button {
+    background-color: rgb(223, 48, 48);
+    padding: 3px;
+    color: white;
+    margin-left: 10px;
+
+}
